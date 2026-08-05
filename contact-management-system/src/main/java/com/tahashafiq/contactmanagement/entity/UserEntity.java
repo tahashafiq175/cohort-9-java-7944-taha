@@ -42,4 +42,5 @@ public class UserEntity {
     @OneToMany(mappedBy = "userEntity", fetch=FetchType.EAGER,cascade = CascadeType.ALL)
     @JsonManagedReference
     private List<ContactEntity> contactEntities=new ArrayList<>();
+
 }
