@@ -37,15 +37,6 @@ public class ContactController {
         return ResponseEntity.ok(contactService.createContact(contactDto,userName));
     }
 
-    @DeleteMapping("/deleteContact/{contactId}/{userName}")
-    public ResponseEntity<ContactEntity> deleteContact(
-            @PathVariable String contactId){
-        ContactEntity contactById = contactService.getContactById(contactId);
-        if(contactById != null) {
-            contactService.deleteContactById(contactId);
-            return ResponseEntity.ok(contactById);
-        }return  ResponseEntity.notFound().build();
-    }
 
     @PutMapping("/changeContact/{userName}/{contactId}")
     public ResponseEntity<ContactEntity> changeContact(
