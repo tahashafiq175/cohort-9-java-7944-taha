@@ -1,5 +1,5 @@
 package com.tahashafiq.contactmanagement.controller;
-import com.tahashafiq.contactmanagement.exception.ResourceNotFoundException;
+import com.tahashafiq.contactmanagement.exceptionhandling.ResourceNotFoundException;
 import com.tahashafiq.contactmanagement.dto.LoginDto;
 import com.tahashafiq.contactmanagement.dto.SignUpDto;
 import com.tahashafiq.contactmanagement.entity.UserEntity;

@@ -1,5 +1,5 @@
 package com.tahashafiq.contactmanagement.controller;
-import com.tahashafiq.contactmanagement.exception.ResourceNotFoundException;
+import com.tahashafiq.contactmanagement.exceptionhandling.ResourceNotFoundException;
 import com.tahashafiq.contactmanagement.dto.PostContactDto;
 import com.tahashafiq.contactmanagement.entity.ContactEntity;
 import com.tahashafiq.contactmanagement.impl.ContactServiceImpl;

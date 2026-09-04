@@ -1,4 +1,4 @@
-package com.tahashafiq.contactmanagement.exception;
+package com.tahashafiq.contactmanagement.exceptionhandling;
 import com.tahashafiq.contactmanagement.payload.ApiResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

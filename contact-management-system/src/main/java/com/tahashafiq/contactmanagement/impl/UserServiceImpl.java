@@ -1,6 +1,6 @@
 package com.tahashafiq.contactmanagement.impl;
 
-import com.tahashafiq.contactmanagement.exception.ResourceNotFoundException;
+import com.tahashafiq.contactmanagement.exceptionhandling.ResourceNotFoundException;
 import com.tahashafiq.contactmanagement.dto.GetUserDto;
 import com.tahashafiq.contactmanagement.dto.LoginDto;
 import com.tahashafiq.contactmanagement.dto.SignUpDto;

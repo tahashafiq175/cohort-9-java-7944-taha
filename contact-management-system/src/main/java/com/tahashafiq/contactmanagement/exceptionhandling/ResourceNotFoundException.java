@@ -1,4 +1,4 @@
-package com.tahashafiq.contactmanagement.exception;
+package com.tahashafiq.contactmanagement.exceptionhandling;
 
 public class ResourceNotFoundException extends RuntimeException {
     public ResourceNotFoundException(String message) {
